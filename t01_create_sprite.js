@@ -8,10 +8,17 @@
 // setup()
 /*******************************************************/
 function setup() {
-		console.log("setup: t01");
+	//Setup
+	console.log("setup: t01");
 	cnv = new Canvas(1800, 900);
+
+	//Rectangle
 	Rectangle = new Sprite(900, 450, 100, 100);
 	Rectangle.color = '#03fca5';
+	Rectangle.rotationSpeed = 2;
+	Rectangle.vel.x = 2;
+
+	//Circle
 	Circle = new Sprite(900, 175, 100);
 	Circle.color = '#03fca5';
 }
