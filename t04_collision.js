@@ -26,7 +26,7 @@ function setup() {
 	*/
 
 	//Platform
-	platform_1 = new Sprite(900, 300, 100, 10, 'k');
+	platform_1 = new Sprite(900, 500, 100, 10, 'k');
 }
 	
 /*******************************************************/
