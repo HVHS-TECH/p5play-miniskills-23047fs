@@ -20,7 +20,7 @@ function setup() {
 	Rectangle.vel.x = 2;
 
 	//Circle
-	Circle = new Sprite(900, 175, 100);
+	Circle = new Sprite(900, 175, 100, 's');
 	Circle.color = '#03fca5';
 }
 	
