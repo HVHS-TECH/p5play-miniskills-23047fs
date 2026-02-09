@@ -31,7 +31,7 @@ function setup() {
 	platform_top.color = '#fc0000';
 	platform_top.bounciness = 1;
 
-	platform_bottom = new Sprite(900, 1800, 900, 10, 'k');
+	platform_bottom = new Sprite(900, 900, 900, 10, 'k');
 	platform_bottom.rotation = 0;
 	platform_bottom.color = '#b700ff';
 	platform_bottom.bounciness = 1;
