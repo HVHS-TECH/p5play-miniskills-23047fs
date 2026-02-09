@@ -32,6 +32,7 @@ function setup() {
 	platform_1.bounciness = 0.2;
 	platform_1.friction = 0.5;
 	platform_1.drag = 0;
+	//Note: I have change / played with all the variables
 }
 	
 /*******************************************************/
