@@ -26,25 +26,25 @@ function setup() {
 	*/
 
 	//Platform
-	platform_1 = new Sprite(900, 0, 900, 10, 'k');
-	platform_1.rotation = 0;
-	platform_1.color = '#fc0000';
-	platform_1.bounciness = 1;
+	platform_top = new Sprite(900, 0, 1800, 10, 'k');
+	platform_top.rotation = 0;
+	platform_top.color = '#fc0000';
+	platform_top.bounciness = 1;
 
-	platform_2 = new Sprite(900, 1800, 900, 10, 'k');
-	platform_2.rotation = 0;
-	platform_2.color = '#b700ff';
-	platform_2.bounciness = 1;
+	platform_bottom = new Sprite(900, 1800, 900, 10, 'k');
+	platform_bottom.rotation = 0;
+	platform_bottom.color = '#b700ff';
+	platform_bottom.bounciness = 1;
 
-	platform_3 = new Sprite(0, 450, 1800, 10, 'k');
-	platform_3.rotation = 90;
-	platform_3.color = '#15ff00';
-	platform_3.bounciness = 1;
+	platform_left = new Sprite(0, 450, 900, 10, 'k');
+	platform_left.rotation = 90;
+	platform_left.color = '#15ff00';
+	platform_left.bounciness = 1;
 
-	platform_4 = new Sprite(1800, 450, 1800, 10, 'k');
-	platform_4.rotation = 90;
-	platform_4.color = '#3700ff';
-	platform_4.bounciness = 1;
+	platform_right = new Sprite(1800, 450, 900, 10, 'k');
+	platform_right.rotation = 90;
+	platform_right.color = '#3700ff';
+	platform_right.bounciness = 1;
 }
 	
 /*******************************************************/
