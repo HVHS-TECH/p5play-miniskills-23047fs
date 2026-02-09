@@ -16,8 +16,8 @@ function setup() {
 	//Rectangle
 	Rectangle = new Sprite(900, 450, 100, 100, 'd');
 	Rectangle.color = '#03fca5';
-	Rectangle.rotationSpeed = 0;
-	Rectangle.vel.x = 0;
+	Rectangle.rotationSpeed = 2;
+	Rectangle.vel.x = 2;
 
 	/*
 	//Circle
@@ -26,8 +26,8 @@ function setup() {
 	*/
 
 	//Platform
-	platform_1 = new Sprite(900, 700, 4000, 10, 'k');
-	platform_1.rotation = 20;
+	platform_1 = new Sprite(900, 700, 400, 10, 'k');
+	platform_1.rotation = 0.2;
 	platform_1.color = '#9e49bf';
 	platform_1.bounciness = 1;
 	platform_1.friction = 0.5;
