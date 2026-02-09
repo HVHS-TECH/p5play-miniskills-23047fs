@@ -1,7 +1,7 @@
 /*******************************************************/
 // P5.play: t04_collision
 // Sprite falls due to gravity & collides with the floor
-// Written by ???
+// Written by Finley
 /*******************************************************/
 	
 /*******************************************************/
@@ -27,9 +27,9 @@ function setup() {
 
 	//Platform
 	platform_1 = new Sprite(900, 700, 400, 10, 'k');
-	platform_1.rotation = 0.2;
+	platform_1.rotation = 20;
 	platform_1.color = '#9e49bf';
-	platform_1.bounciness = 1;
+	platform_1.bounciness = 0.2;
 	platform_1.friction = 0.5;
 	platform_1.drag = 0;
 }
