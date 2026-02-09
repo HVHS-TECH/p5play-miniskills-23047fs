@@ -10,15 +10,17 @@
 function setup() {
 		console.log("setup: t01");
 	cnv = new Canvas(1920, 1000);
-	newSprite = new Sprite(0, 0, 100, 100);
-	newSprtie.color = 'ccc';
+	Rectangle = new Sprite(0, 0, 100, 100);
+	Rectangle.color = '#03fca5';
+	Circle = new Sprite(200, 200, 100);
+	Circle.color = '#03fca5';
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	background('ccc'); 
+	background('#b8b8b8'); 
 }
 
 /*******************************************************/
