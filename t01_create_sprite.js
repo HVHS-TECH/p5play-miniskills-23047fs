@@ -9,10 +9,10 @@
 /*******************************************************/
 function setup() {
 		console.log("setup: t01");
-	cnv = new Canvas(1920, 1000);
-	Rectangle = new Sprite(960, 500, 100, 100);
+	cnv = new Canvas(1800, 1000);
+	Rectangle = new Sprite(900, 500, 100, 100);
 	Rectangle.color = '#03fca5';
-	Circle = new Sprite(960, 200, 100);
+	Circle = new Sprite(900, 200, 100);
 	Circle.color = '#03fca5';
 }
 	
