@@ -27,7 +27,11 @@ function setup() {
 
 	//Platform
 	platform_1 = new Sprite(900, 700, 400, 10, 'k');
+	platform_1.rotation = 45;
 	platform_1.color = '#9e49bf';
+	platform_1.bounciness = 1;
+	platform_1.friction = 0.5;
+	platform_1.drag = 0;
 }
 	
 /*******************************************************/
