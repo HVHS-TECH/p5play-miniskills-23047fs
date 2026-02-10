@@ -20,6 +20,7 @@ function setup() {
 	inactiveSprites();
 	activeSprites();
 
+	//Group Actions
 	alienGroup.collides(circle, alienGroupCollide);
 
 	//Console Tests
@@ -73,7 +74,7 @@ function activeSprites() {
 	}
 }
 
-function alienGroupCollide(_circle, _ssss) {
+function alienGroupCollide(_alien, _ssss) {
 	// Delete the alien which was hit
 	_ssss.remove();
 }
