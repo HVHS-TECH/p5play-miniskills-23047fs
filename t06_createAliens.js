@@ -59,7 +59,7 @@ function activeSprites() {
 		alien = new Sprite(random(20, 1780), random(20, 880), 10, 10, 'd');
 		alien.vel.x = random(-5, 5);
 		alien.vel.y = random(-5, 5);
-		alien.bounciness = random(0.5, 5);
+		alien.bounciness = random(2);
 		alien.friction = 0;
 	}
 }
