@@ -74,7 +74,7 @@ function activeSprites() {
 	}
 }
 
-function alienGroupCollide(_alien, _ssss) {
+function alienGroupCollide(_circle, _ssss) {
 	// Delete the alien which was hit
 	_ssss.remove();
 }
