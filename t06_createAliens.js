@@ -36,13 +36,13 @@ function setup() {
 	wallBottom.color = '#b700ff';
 	wallBottom.bounciness = 0.4;
 
-	wallLeft = new Sprite(0, 450, 10, 900, 'k');
-	wallLeft.rotation = 90;
+	wallLeft = new Sprite(0, 450, 8, 900, 'k');
+	wallLeft.rotation = 0;
 	wallLeft.color = '#15ff00';
 	wallLeft.bounciness = 0.2;
 
-	wallRight = new Sprite(1800, 450, 10, 900, 'k');
-	wallRight.rotation = 90;
+	wallRight = new Sprite(1800, 450, 8, 900, 'k');
+	wallRight.rotation = 0;
 	wallRight.color = '#3700ff';
 	wallRight.bounciness = 0.1;
 }
