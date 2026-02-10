@@ -17,7 +17,7 @@ function setup() {
 	Rectangle = new Sprite(900, 450, 50, 25, 'd');
 	Rectangle.color = '#03fca5';
 	Rectangle.rotationSpeed = 2;
-	Rectangle.vel.x = 2;
+	Rectangle.vel.x = 0;
 
 	/*
 	//Circle
