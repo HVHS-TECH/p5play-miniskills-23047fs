@@ -9,7 +9,7 @@
 /*******************************************************/
 function setup() {
 	//Setup
-	console.log("setup: t04");
+	console.log("setup: t06");
 	cnv = new Canvas(1800, 900);
 	world.gravity.y = 10;
 
