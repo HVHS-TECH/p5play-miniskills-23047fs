@@ -15,11 +15,12 @@ function setup() {
 
 	//Groups
 	alienGroup = new Group();
-	alienGroup.collides(circle, alienGroupCollide);
 
 	//functions
 	inactiveSprites();
 	activeSprites();
+
+	alienGroup.collides(circle, alienGroupCollide);
 
 	//Console Tests
 	console.log(alienGroup);
