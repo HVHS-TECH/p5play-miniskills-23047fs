@@ -19,6 +19,9 @@ function setup() {
 	//functions
 	inactiveSprites();
 	activeSprites();
+
+	//Console Tests
+	console.log(alienGroup);
 }
 
 function inactiveSprites() {
