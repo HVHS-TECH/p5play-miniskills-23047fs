@@ -15,7 +15,7 @@ function setup() {
 
 	//Groups
 	alienGroup = new Group();
-	alienGroup.collides(circle, func2Call);
+	alienGroup.collides(circle, alienGroupCollide);
 
 	//functions
 	inactiveSprites();
