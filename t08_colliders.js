@@ -24,7 +24,7 @@ function setup() {
 	activeSprites();
 
 	//Group Actions
-	//alienGroup.collides(circle, alienGroupCollide);
+	alienGroup.collides(circle, alienGroupCollide);
 
 	//Console Tests
 	console.log(alienGroup);
