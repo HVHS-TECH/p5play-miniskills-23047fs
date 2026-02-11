@@ -24,7 +24,7 @@ function setup() {
 	activeSprites();
 
 	//Group Actions
-	alienGroup.collides(circle, alienGroupCollide);
+	//alienGroup.collides(circle, alienGroupCollide);
 
 	//Console Tests
 	console.log(alienGroup);
@@ -65,13 +65,13 @@ function activeSprites() {
 	//Circle
 	circle = new Sprite(900, 450, 50, 'd');
 	circle.color = '#03fca5';
-	circle.bounciness = 0.8;
+	circle.bounciness = 1.2;
 	circle.vel.x = 0;
-	circle.vel.y = 0.1;
+	circle.vel.y = 0.4;
 	circle.friction = 0;
 
 	//Create Aliens
-	for (i = 0; i < 30; i++) {
+	for (i = 0; i < 50; i++) {
 		alien = new Sprite(random(20, 1780), random(20, 880), 10, 10, 'd');
 		alien.vel.x = random(-8, 8);
 		alien.vel.y = random(-2, 2);
