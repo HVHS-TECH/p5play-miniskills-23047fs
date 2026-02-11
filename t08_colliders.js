@@ -65,11 +65,12 @@ function activeSprites() {
 	//Circle
 	circle = new Sprite(900, 450, 50, 'd');
 	circle.color = '#03fca5';
-	circle.bounciness = 2;
-	circle.vel.y = random(2);
+	circle.bounciness = 1.5;
+	circle.vel.x = random(-2, 2);
+	circle.vel.y = 0.1;
 
 	//Create Aliens
-	for (i = 0; i < 10; i++) {
+	for (i = 0; i < 30; i++) {
 		alien = new Sprite(random(20, 1780), random(20, 880), 10, 10, 'd');
 		alien.vel.x = random(-5, 5);
 		alien.vel.y = random(-5, 5);
