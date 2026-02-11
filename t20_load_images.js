@@ -8,14 +8,15 @@
 // setup()
 /*******************************************************/
 function preload() {
-  imgBG = loadImage('assets/images/space.jpg');
-  imgFace = loadImage('assets/images/face.png');
+  imgBG = loadImage('../assets/images/space.jpg');
+  imgFace = loadImage('../assets/images/face.png');
 
 }
 
 function setup() {
 	console.log("setup:t20");
 	cnv = new Canvas(1800, 900);
+	world.gravity.y = 10;
 
 	ball = new Sprite(900, 450, 50, 'd');
 	ball.bounciness = 1;
@@ -30,7 +31,7 @@ function setup() {
 /*******************************************************/
 function draw() {
 	background(imgBG);
-	
+
 }
 
 /*******************************************************/

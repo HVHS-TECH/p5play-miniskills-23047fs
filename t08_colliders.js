@@ -13,9 +13,6 @@ function setup() {
 	cnv = new Canvas(1800, 900);
 	world.gravity.y = 10;
 
-	//Variables
-
-
 	//Groups
 	alienGroup = new Group();
 
