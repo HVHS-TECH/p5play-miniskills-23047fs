@@ -13,6 +13,9 @@ function setup() {
 	cnv = new Canvas(1800, 900);
 	world.gravity.y = 10;
 
+	//Variables
+
+
 	//Groups
 	alienGroup = new Group();
 
@@ -63,18 +66,18 @@ function activeSprites() {
 	circle = new Sprite(900, 450, 50, 'd');
 	circle.color = '#03fca5';
 
-	//Aliens
+	//Create Aliens
 	for (i = 0; i < 10; i++) {
 		alien = new Sprite(random(20, 1780), random(20, 880), 10, 10, 'd');
 		alien.vel.x = random(-5, 5);
 		alien.vel.y = random(-5, 5);
-		alien.bounciness = random(2);
+		alien.bounciness = random(1.5);
 		alien.friction = 0;
 		alienGroup.add(alien);
 	}
 }
 
-function alienGroupCollide(_circle, _ssss) {
+function alienGroupCollide(_ssss, _circle) {
 	// Delete the alien which was hit
 	_ssss.remove();
 }
