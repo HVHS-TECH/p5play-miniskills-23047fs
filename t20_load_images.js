@@ -8,13 +8,13 @@
 // setup()
 /*******************************************************/
 function preload() {
-  imgBG   = loadImage('assets/images/space.jpg');
+  imgBG = loadImage('assets/images/space.jpg');
   imgFace = loadImage('assets/images/face.png');
 
 }
 
 function setup() {
-	console.log("setup: ");
+	console.log("setup:t20");
 	cnv = new Canvas(1800, 900);
 
 	ball = new Sprite(900, 450, 50, 'd');
@@ -30,6 +30,7 @@ function setup() {
 /*******************************************************/
 function draw() {
 	background(imgBG);
+	
 }
 
 /*******************************************************/
