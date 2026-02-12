@@ -11,7 +11,7 @@ function setup() {
 	//Setup
 	console.log("setup: 21");
 	cnv = new Canvas(1800, 900);
-	world.gravity.y = 5;
+	world.gravity.y = 10;
 
 	//Rectangle
 	rectangle = new Sprite(900, 450, 100, 100, 'd');
@@ -30,7 +30,7 @@ function draw() {
 
 	//rectangle.moveTowards(mouseX, mouseY, 0.02);
 	if (mouse.presses()) {
-		rectangle.moveTo(mouseX, mouseY, 10);
+		rectangle.moveTo(mouseX, mouseY, 12);
 	}
 }
 
