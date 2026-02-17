@@ -11,7 +11,7 @@ function setup() {
 	//Setup
 	console.log("setup: 22");
 	cnv = new Canvas(1800, 900);
-	world.gravity.y = 23;
+	world.gravity.y = 40;
 
 	//Rectangle
 	rectangle = new Sprite(900, 450, 100, 100, 'd');
@@ -29,7 +29,7 @@ function setup() {
 
 	floor = new Sprite(900, 875, 1850, 50, 'k');
 	floor.color = '#ee4410';
-	floor.bounciness = 0.5;
+	floor.bounciness = 0.3;
 	groundGroup.add(floor);
 
 }
@@ -42,13 +42,15 @@ function draw() {
 
 	//Text
 	text(round(rectangle.y), 900, 450);
+	text(round(mouse.x), 900, 400);
+	text(round(mouse.y), 900, 350);
 
 	//Keyboard Movement
 	rectangle.vel.x = rectangle.vel.x/1.04;
 	rectangle.rotationSpeed = rectangle.rotationSpeed/1.03;
 
 	//Jump
-	if (groundGroup.isTouching(rectangle)) {
+	if (groundGroup.colliding(rectangle)) {
 		isOnFloor = 1;
 	} else {
 		isOnFloor = 0;
@@ -62,15 +64,15 @@ function draw() {
 	//Left
 	if (kb.pressing('a')) {
 		// Set sprite's velocity to the left
-		rectangle.vel.x = -4;
-		rectangle.rotationSpeed = -2.8;
+		rectangle.vel.x = -6;
+		rectangle.rotationSpeed = -3.5;
 	};
 
 	//Right
 	if (kb.pressing ('d')) {
 		// Set sprite's velocity to the right
-		rectangle.vel.x = 4;
-		rectangle.rotationSpeed = 2.8;
+		rectangle.vel.x = 6;
+		rectangle.rotationSpeed = 3.5;
 	};
 
 }
