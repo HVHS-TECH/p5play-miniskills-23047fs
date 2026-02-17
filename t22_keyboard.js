@@ -25,6 +25,9 @@ function setup() {
 function draw() {
 	background('#b8b8b8'); 
 
+	//Text
+	text("Hello World", 50, 50, 2000, 2000) 
+
 	//Keyboard Movement
 	rectangle.vel.x = rectangle.vel.x/1.025;
 	rectangle.vel.y = rectangle.vel.y/1.025;
