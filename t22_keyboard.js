@@ -47,7 +47,7 @@ function draw() {
 
 	//Keyboard Movement
 	rectangle.vel.x = rectangle.vel.x/1.04;
-	rectangle.rotationSpeed = rectangle.rotationSpeed/1.03;
+	rectangle.rotationSpeed = rectangle.rotationSpeed/1.035;
 
 	//Jump
 	if (groundGroup.colliding(rectangle)) {
