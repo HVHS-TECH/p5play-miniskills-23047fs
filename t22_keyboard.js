@@ -42,8 +42,8 @@ function draw() {
 
 	//Text
 	text(round(rectangle.y), 900, 450);
-	text(round(mouse.x), 900, 400);
-	text(round(mouse.y), 900, 350);
+	text("Mouse X " + round(mouse.x), 900, 400);
+	text("Mouse Y " + round(mouse.y), 900, 350);
 
 	//Keyboard Movement
 	rectangle.vel.x = rectangle.vel.x/1.04;
