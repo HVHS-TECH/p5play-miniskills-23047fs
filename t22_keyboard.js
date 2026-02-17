@@ -41,7 +41,6 @@ function draw() {
 	background('#b8b8b8'); 
 
 	//Text
-	text(round(rectangle.y), 900, 450);
 	text("Mouse X " + round(mouse.x), 900, 400);
 	text("Mouse Y " + round(mouse.y), 900, 350);
 
